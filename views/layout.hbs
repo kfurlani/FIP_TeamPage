@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/css/main.css'/>
+  </head>
+  <body>
+    <header><h1>this is the team landing page</h1>
+      <nav>
+        <a href="/team/hiral">Hiral</a>
+        {{!-- <a href="/team/Chrstine">Chrstine</a>
+        <a href="/team/Krystal">Krystal</a>
+        <a href="/team/Ishpreet">Ishpreet</a>
+        <a href="/team/Pablo">Pablo</a> --}}
+     </nav>
+    </header>
+    <h1>this is static content. Template below accepts dynamic content</h1>
+    <!-- the below tag will be use for injecting the component !-->
+    <hr>
+    <!-- below the content in body is coming out from index.hbs !-->
+    {{{body}}}
+    <hr>
+    <h3>Back to static content</h3>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
