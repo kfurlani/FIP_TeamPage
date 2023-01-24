@@ -1,0 +1,52 @@
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+  }
+
+.header {display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 200px;
+    background-color: #E94C5D;
+
+    img {
+        width: 450px;
+    }
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    width: 550px;
+    justify-content: space-around;
+
+
+    a { font-family: 'Gothic A1', sans-serif;
+        font-weight: 900;
+        color: white;
+        text-decoration: none; 
+        transition: scale 0.2s ease;}
+
+    a:hover {scale: 120%; color: #4494D0;}
+}
+
+.coverPhoto img {
+    width: 100%;
+}
+
