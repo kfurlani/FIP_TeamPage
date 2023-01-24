@@ -2,25 +2,28 @@
 <html>
   <head>
     <title>{{title}}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;900&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='/css/main.css'/>
   </head>
   <body>
-    <header><h1>this is the team landing page</h1>
-      <nav>
-        <a href="/team/hiral">Hiral</a>
-        {{!-- <a href="/team/Chrstine">Chrstine</a>
-        <a href="/team/Krystal">Krystal</a>
-        <a href="/team/Ishpreet">Ishpreet</a>
-        <a href="/team/Pablo">Pablo</a> --}}
+    <section class="header">
+      <img src="/images/Team_Logo.svg" alt="Team Logo">
+    </section>
+    <header class="team">
+      <nav class="menu">
+        <a href="/">HOME</a>
+        <a href="/team/krystal">KRYSTAL</a>
+        <a href="/team/ishpreet">ISHPREET</a>
+        <a href="/team/chrstine">CRISTINE</a>
+        <a href="/team/hiral">HIRAL</a>
+        <a href="/team/pablo">PABLO</a>
      </nav>
     </header>
-    <h1>this is static content. Template below accepts dynamic content</h1>
     <!-- the below tag will be use for injecting the component !-->
-    <hr>
     <!-- below the content in body is coming out from index.hbs !-->
     {{{body}}}
-    <hr>
-    <h3>Back to static content</h3>
     <script src="/js/main.js"></script>
   </body>
 </html>

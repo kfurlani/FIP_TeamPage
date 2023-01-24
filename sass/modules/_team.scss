@@ -1,5 +1,50 @@
-.red {
-    background-color: blue;
-    color: red;
-    font-size: 20px;
+.bioTeam {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin-top: 30px;
+}
+
+.memberPhoto {
+    background-color: grey;
+    width: 420px;
+    height: 485px;
+}
+
+.rightElements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.memberInfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    width: 380px;
+}
+
+.name {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.role {
+    padding: 7px 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.bio {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.shield {
+    width: 50px;
+    margin-left: 25px;
 }

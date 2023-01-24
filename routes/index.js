@@ -7,9 +7,18 @@ var router = express.Router();
     
     hiral: {
       name: 'Hiral',
-      role: 'Front-End Devloper',
-      image: 'justin.jpg'
+      role: 'Front-End Developer',
+      avatar: '',
+      bio: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.'
+    },
+
+    pablo: {
+      name: 'Pablo Ortiz',
+      role: 'Motion - 3D Artist',
+      avatar: 'pablo.jpg',
+      bio: 'The old man of the team; Publicist by profession but graphic designer at heart with 22 years of experience in the graphic industry. His affinity with the audiovisual makes him contribute to projects as a motion and 3D artist, giving life and movement to ideas that impact.'
     }
+
   }
 
 
