@@ -24,7 +24,15 @@ var router = express.Router();
       role: 'Project Manager', 
       avatar: 'krystal-teampage.jpg',
       bio: 'Meet Krystal, the Project Manager at Final Stand Agency. Krystal is responsible for overseeing all aspects of the project, from strategy development to implementation. With a team of media designers, front-end and back-end developers, and a motion designer, Krystal is dedicated to ending the bullying cycle in hockey and creating a safer, more inclusive environment for all players. Krystal is a skilled manager with a passion for teamwork and a commitment to delivering results, and is always available to help and support the team in achieving their goals.'
+    },
+
+    cristine: {
+      name: 'Cristine de Noronha',
+      role: 'Back-End Developer', 
+      avatar: 'Cristine.jpg',
+      bio: 'Meet Cristine, a skilled Back-end Developer at Final Stand Agency. As a member of the Bullyproof Hockey campaign team, Cristine is responsible for the technical infrastructure using PHP, MySQL and lumen framework. She works closely with the team members to develop and implement new features and enhancements to the website. Cristine s attention to detail, problem-solving skills, and expertise in PHP, MySQL and lumen framework make her a valuable asset to the team, delivering top-notch outcomes for the campaign.'
     }
+
 
   }
 
