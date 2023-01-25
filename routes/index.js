@@ -8,8 +8,8 @@ var router = express.Router();
     hiral: {
       name: 'Hiral',
       role: 'Front-End Developer',
-      avatar: '',
-      bio: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.'
+      avatar: 'hiral.jpg',
+      bio: '"Introducing Hiral Shah, the front-end wizard at our agency. With a keen eye for design and a talent for creating seamless user experiences, Hiral is amazing at bringing website visions to life. As a key member of the "Bully Proof Hockey" campaign team, Hiral will be playing a crucial role in developing the campaign website, ensuring it is visually stunning and easy to navigate. Hiral is passionate about using technology to promote positive change and is dedicated to making a difference in the world. When not coding up a storm, He can be found exploring new hobbies and staying up to date on the latest front-end development trends"'
     },
 
     pablo: {
