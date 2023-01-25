@@ -16,7 +16,7 @@ var router = express.Router();
       name: 'Pablo Ortiz',
       role: 'Motion - 3D Artist',
       avatar: 'pablo.jpg',
-      bio: 'The old man of the team; Publicist by profession but graphic designer at heart with 22 years of experience in the graphic industry. His affinity with the audiovisual makes him contribute to projects as a motion and 3D artist, giving life and movement to ideas that impact.'
+      bio: 'Introducing Pablo, the seasoned Motion Designer at Final Stand Agency. With over 22 years of experience in the field, he brings a wealth of knowledge and expertise to the Bullyproof Hockey campaign team. As a key member of the team, Pablo is responsible for creating visually stunning and engaging motion graphics that support the mission of the campaign mission of ending the bullying cycle in hockey and creating a safer, more inclusive environment for all players. His passion for design and animation, coupled with his extensive experience, make him a valuable asset to the team.'
     }, 
 
     krystal: {
