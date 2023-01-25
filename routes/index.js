@@ -17,6 +17,13 @@ var router = express.Router();
       role: 'Motion - 3D Artist',
       avatar: 'pablo.jpg',
       bio: 'The old man of the team; Publicist by profession but graphic designer at heart with 22 years of experience in the graphic industry. His affinity with the audiovisual makes him contribute to projects as a motion and 3D artist, giving life and movement to ideas that impact.'
+    }, 
+
+    krystal: {
+      name: 'Krystal Furlani',
+      role: 'Project Manager', 
+      avatar: 'krystal-teampage.jpg',
+      bio: 'Meet Krystal, the Project Manager at Final Stand Agency. Krystal is responsible for overseeing all aspects of the project, from strategy development to implementation. With a team of media designers, front-end and back-end developers, and a motion designer, Krystal is dedicated to ending the bullying cycle in hockey and creating a safer, more inclusive environment for all players. Krystal is a skilled manager with a passion for teamwork and a commitment to delivering results, and is always available to help and support the team in achieving their goals.'
     }
 
   }
