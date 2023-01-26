@@ -31,6 +31,13 @@ var router = express.Router();
       role: 'Back-End Developer', 
       avatar: 'Cristine.jpg',
       bio: 'Meet Cristine, a skilled Back-end Developer at Final Stand Agency. As a member of the Bullyproof Hockey campaign team, Cristine is responsible for the technical infrastructure using PHP, MySQL and lumen framework. She works closely with the team members to develop and implement new features and enhancements to the website. Cristine s attention to detail, problem-solving skills, and expertise in PHP, MySQL and lumen framework make her a valuable asset to the team, delivering top-notch outcomes for the campaign.'
+    },
+
+    ishpreet: {
+      name: 'Ishpreet Kaur',
+      role: 'Graphic Designer',
+      avatar: 'ishpreet.jpg',
+      bio: 'Meet Ishpreet, the talented Graphic Designer at Final Stand Agency. As a key member of the Bullyproof Hockey campaign team. Ishpreet brings her creativity and passion for design to the forefront. She is responsible for creating visually striking and impactful designs to support the campaigns mission of ending the bullying cycle in hockey and creating a safer, more inclusive environment for all players. With a keen eye for detail and a dedication to delivering high-quality work, Ishpreet is a valuable asset to the team and works closely with Project Manager and other team members to ensure the success of the campaign. Her skills in graphic design, branding and web design make her an essential member of the team. '
     }
 
 
